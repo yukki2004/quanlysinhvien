@@ -8,6 +8,7 @@ namespace WebApplication2.src.Domain.Interface
         Task<SinhVien> GetSinhVienById(int id);
         Task CreateSinhVien(SinhVien sinhVien);
         Task DeleteSinhVienById(int id);
+        /// quản lý thông tin sinh viên
         
     }
 }
